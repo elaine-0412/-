@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base:'VUE-猜拳遊戲',
+  base:'rock-game',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
